@@ -23,6 +23,7 @@ This is a mini-project that I made for fCC front-end libraries development proje
 * [Component Composition](https://reactjs.org/docs/components-and-props.html#composing-components)
 * [Passing State up](https://reactjs.org/docs/lifting-state-up.html)
 * [Public Class fields syntax (_experimental_)](https://babeljs.io/docs/en/babel-plugin-transform-class-properties/)
+* Making Markdowns with [Marked.js](https://marked.js.org/)
 
 
 ### Resources Read / Watched to learn how to build
@@ -33,4 +34,6 @@ This is a mini-project that I made for fCC front-end libraries development proje
 
 
 ## Work to do
-* Plan how to do it
+* Explore Marked.js
+* Sketch Basic Layout Mobile and Desktop
+* Basic Mobile Layout

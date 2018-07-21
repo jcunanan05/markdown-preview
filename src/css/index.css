@@ -6408,7 +6408,7 @@ label.panel-block {
   padding: 3rem 1.5rem; }
 
 .section {
-  padding: 3rem 1.5rem; }
+  padding: 1rem 1rem; }
   @media screen and (min-width: 1088px) {
     .section.is-medium {
       padding: 9rem 1.5rem; }
@@ -6421,3 +6421,6 @@ label.panel-block {
 
 *, *::before, *::after {
   box-sizing: border-box; }
+
+.preview__box {
+  padding: 1rem; }
