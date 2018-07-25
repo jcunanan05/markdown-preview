@@ -6422,5 +6422,14 @@ label.panel-block {
 *, *::before, *::after {
   box-sizing: border-box; }
 
+.preview {
+  padding-bottom: 5rem; }
+
 .preview__box {
   padding: 1rem; }
+
+.editor__button {
+  margin-bottom: 0.5rem; }
+
+#root {
+  background-color: #aa00ff; }

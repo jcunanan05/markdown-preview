@@ -32,8 +32,10 @@ This is a mini-project that I made for fCC front-end libraries development proje
 * [Jeffrey Way Article 30 css selectors you must memorize (not really)](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 * [csstricks Media queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
+## Work done
+* Sketch Basic Layout Mobile and Desktop
+* Basic Mobile Layout
 
 ## Work to do
 * Explore Marked.js
-* Sketch Basic Layout Mobile and Desktop
-* Basic Mobile Layout
+

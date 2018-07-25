@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import marked from 'marked';
-import Header from './components/Header';
-import Editor from './components/Editor';
-import Preview from './components/Preview';
-import Footer from './components/Footer';
+import marked, { markedOptions } from '../customMarked';
+import Header from './Header';
+import Editor from './Editor';
+import Preview from './Preview';
+import Footer from './Footer';
+import defaultMarkdownText from '../defaultMarkdownText';
 
-const defaultMarkdownText = `# Hello World
-## Hi World`;
 
 class App extends Component {
   state = {
@@ -19,6 +18,10 @@ class App extends Component {
     this.setState({markdownText: e.target.value});
   }
 
+  clearText = () => {
+    this.setState({markdownText: ''});
+  }
+
   render() {
     const markdownText = this.state.markdownText;
 
@@ -29,9 +32,10 @@ class App extends Component {
         <main className="main">
           <Editor 
             text={markdownText}
+            clearText={this.clearText}
             handleTextChange={this.handleTextChange} />
 
-          <Preview markdownText={marked(markdownText)} />
+          <Preview markdownText={marked(markdownText, markedOptions)} />
         </main>
 
         <Footer />

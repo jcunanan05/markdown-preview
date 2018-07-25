@@ -5,7 +5,7 @@ const Preview = (props) => {
 
   return (
     <section className="section preview">
-      <div id="preview" className="box container preview__box"
+      <div id="preview" className="box container preview__box content"
         dangerouslySetInnerHTML={dangerousHTML}>
       </div>
     </section>
