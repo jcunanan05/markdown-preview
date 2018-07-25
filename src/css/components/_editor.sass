@@ -1,2 +1,20 @@
+.editor__section
+  width: 100%
+
 .editor__button 
   margin-bottom: 0.5rem
+
+.editor
+  font-family: monospace
+
+@media screen and (min-width: 769px)
+  .editor__section
+    flex-flow: column
+    padding-left: $main__section--side-padding
+
+  .editor
+    min-height: 70vh
+    flex: 1
+  
+  textarea#editor
+    max-height: none

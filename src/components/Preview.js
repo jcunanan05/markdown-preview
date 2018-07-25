@@ -4,8 +4,8 @@ const Preview = (props) => {
   const dangerousHTML = {__html: props.markdownText};
 
   return (
-    <section className="section preview">
-      <div id="preview" className="box container preview__box content"
+    <section className="section preview is-flex-tablet">
+      <div id="preview" className="box container is-fluid preview__box content"
         dangerouslySetInnerHTML={dangerousHTML}>
       </div>
     </section>

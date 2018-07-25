@@ -1,3 +1,15 @@
-@supports (display: grid)
+.main
+  padding-bottom: 5rem
+
+// desktop sizes and above
+@media screen and (min-width: 769px)
   .main
-    display: grid
+    max-width: 90rem
+    margin: 0 auto
+    min-height: 30rem
+    padding-bottom: 2rem
+
+  @supports (display: grid)
+    .main
+      display: grid
+      grid-template-columns: 1fr 2fr

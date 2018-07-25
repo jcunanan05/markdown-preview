@@ -1,5 +1,15 @@
+$min-height: 16rem
+
 .preview
-  padding-bottom: 5rem
+  min-height: $min-height
 
 .preview__box
   padding: 1rem
+  min-height: $min-height
+
+@media screen and (min-width: 769px)
+  .preview
+    padding-right: $main__section--side-padding
+
+  .preview__box
+    flex: 1

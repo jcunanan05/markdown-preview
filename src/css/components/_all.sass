@@ -6,5 +6,12 @@
 @import 'main'
 @import 'editor'
 
+html, body
+  min-height: 100vh
+
 #root
   background-color: #aa00ff
+
+@media screen and (min-width: 769px)
+  .container.is-fluid
+    margin: 0
