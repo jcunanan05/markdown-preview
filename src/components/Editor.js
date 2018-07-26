@@ -14,6 +14,7 @@ const Editor = (props) => (
       className="textarea editor"
       onChange={props.handleTextChange}
       onKeyUp={props.handleTextChange}
+      placeholder={props.placeholder}
       value={props.text} >
     </textarea>
   </section>

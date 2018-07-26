@@ -6460,6 +6460,7 @@ label.panel-block {
   margin-bottom: 0.5rem; }
 
 .editor {
+  height: 15rem;
   font-family: monospace; }
 
 @media screen and (min-width: 769px) {
@@ -6476,7 +6477,7 @@ html, body {
   min-height: 100vh; }
 
 #root {
-  background-color: #aa00ff; }
+  background-color: #29b6f6; }
 
 @media screen and (min-width: 769px) {
   .container.is-fluid {

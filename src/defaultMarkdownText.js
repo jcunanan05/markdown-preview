@@ -1,7 +1,7 @@
 const defaultMarkdownText = `# This is how you do a heading 1 Text
 ## And for heading 2 Text
 
-[do a link tag like this](google.com)
+[do a link tag like this](https://google.com/)
 
 do an \`\`\`inline code like this\`\`\`
 

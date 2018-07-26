@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import marked, { markedOptions } from '../customMarked';
+import processMarkdown from '../customMarked';
 import Header from './Header';
 import Editor from './Editor';
 import Preview from './Preview';
@@ -32,10 +32,11 @@ class App extends Component {
         <main className="main">
           <Editor 
             text={markdownText}
+            placeholder={'# Write your markdown code here!!'}
             clearText={this.clearText}
             handleTextChange={this.handleTextChange} />
 
-          <Preview markdownText={marked(markdownText, markedOptions)} />
+          <Preview markdownText={processMarkdown(markdownText)}/>
         </main>
 
         <Footer />
