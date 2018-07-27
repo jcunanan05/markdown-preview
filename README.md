@@ -31,11 +31,12 @@ This is a mini-project that I made for fCC front-end libraries development proje
 * Flexbox Mega Article at Medium
 * [Jeffrey Way Article 30 css selectors you must memorize (not really)](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 * [csstricks Media queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+* [Marked.js Options docs](https://marked.js.org/#/USING_ADVANCED.md)
+* [Marked.js renderer docs](https://marked.js.org/#/USING_PRO.md)
 
 ## Work done
 * Sketch Basic Layout Mobile and Desktop
 * Basic Mobile Layout
 * Explore Marked.js
-
-## Work to do
 * Make links open in new tab
+* Passed Bonus tests

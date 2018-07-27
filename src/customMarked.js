@@ -12,6 +12,7 @@ renderer.link = (href, title, text) => (
 
 const markedOptions = {
   gfm: true,
+  breaks: true,
   renderer
 };
 

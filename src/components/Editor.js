@@ -3,9 +3,9 @@ import React from 'react';
 const Editor = (props) => (
   <section className="section container is-fluid editor__section is-flex-tablet">
     <button 
-      class="button is-danger editor__button"
+      className="button is-danger editor__button"
       onClick={props.clearText} >
-      <i class="fas fa-trash-alt"></i>&nbsp;Clear Text
+      <i className="fas fa-trash-alt"></i>&nbsp;Clear Text
     </button>
 
     <textarea 
